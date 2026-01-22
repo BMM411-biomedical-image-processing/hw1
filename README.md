@@ -17,11 +17,11 @@ This repository contains the Week 3 assignment for BMM411 Biomedical Image Proce
 ### Step 2: Clone Your Repository
 ```bash
 git clone <your-repository-url>
-cd BMM411-Week3-YourUsername
+cd BMM411-hw1-YourUsername
 ```
 
 ### Step 3: Work on the Assignment
-1. Open `Week3_Assignment.ipynb` in Jupyter Notebook
+1. Open `hw1.ipynb` in Jupyter Notebook
 2. Fill in your student information at the top
 3. Complete all parts of the assignment
 4. Commit your progress regularly (minimum 5 commits required)
@@ -32,64 +32,6 @@ git add .
 git commit -m "Your descriptive commit message"
 git push
 ```
-
----
-
-## For Instructors: Setting Up GitHub Classroom
-
-### Prerequisites
-- GitHub organization (create one if you don't have)
-- GitHub Classroom account linked to your organization
-
-### Step 1: Create Template Repository
-
-**IMPORTANT:** The starter code repository **must be a template** so that a copy can be made in your organization.
-
-1. Push this repository to your GitHub organization
-2. Go to repository **Settings** > **General**
-3. Scroll to **Template repository** section
-4. Check the box ✅ **Template repository**
-5. Save changes
-
-### Step 2: Create Assignment in GitHub Classroom
-
-1. Go to [GitHub Classroom](https://classroom.github.com)
-2. Select your classroom or create a new one
-3. Click **New Assignment**
-4. Configure the assignment:
-   - **Title:** BMM411 Week 3 - Pixel Operations
-   - **Deadline:** Set your deadline
-   - **Repository visibility:** Private (recommended)
-   - **Add starter code:** Select this template repository
-   - GitHub Classroom will create a **copy** in your organization
-5. Enable GitHub Actions (optional, for auto-grading)
-6. Click **Create assignment**
-7. Share the invitation link with students
-
-### Step 3: How Starter Code Works
-
-When you add starter code:
-- GitHub Classroom creates a **copy** of your template in your organization
-- Student repositories become **forks** of this organizational copy
-- Students cannot see each other's repositories (private repos)
-
-**Without starter code:** Student repositories will be created empty.
-
-### Step 4: Updating Starter Code (Sync Assignments)
-
-If you need to fix bugs or update the assignment after students accept:
-
-1. Go to the assignment dashboard in GitHub Classroom
-2. Make changes to the **organizational copy** (not the original template)
-3. Click **"Sync assignments"** button
-4. GitHub will open **Pull Requests** in all student repositories
-5. Students can review and merge the updates
-
-**Example use cases:**
-- Fix typos in instructions
-- Add clarifications to questions
-- Update test cases
-- Provide additional helper functions
 
 ---
 
@@ -120,7 +62,7 @@ pip install numpy matplotlib scipy
 .
 ├── README.md
 ├── .gitignore
-└── Week3_Assignment.ipynb
+└── hw1.ipynb
 ```
 
 
